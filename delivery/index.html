@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ጁስ ኮርነር</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-body-tertiary">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-white bg-white shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" alt="ምልክት" class="img-fluid" style="height: 40px;">
+        <span class="ms-2 fw-bold">ጁስ ኮርነር</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">መግቢያ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ምርቶች</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ስለ እኛ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">አግኙን</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <div class="container mt-5">
+    <div class="card shadow-sm">
+      <img src="meal-2834549_1920.jpg" class="card-img-top " alt="..." style="height: 200px;">
+
+      <div class="card-body text-center py-5">
+        <h4 class="text-primary mb-4">ወደ ጁስ ኮርነር እንኳን በደህና መጡ</h4>
+        <p class="text-muted px-3 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non metus justo. Duis interdum sapien vel dui placerat, eget auctor arcu convallis.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Products (Horizontal Scroll) -->
+  <div class="container mt-5">
+    <h3 class="mb-3">Juice</h3>
+    <div class="d-flex flex-nowrap overflow-auto pb-3 gap-3">
+      <!-- Product Cards -->
+      <div class="card" style="min-width: 200px;">
+        <img src="malonjuice.jpg" class="card-img-top object-fit-cover" style="height: 150px;">
+        <div class="card-body">
+          <h5 class="card-title fs-6">ማንጎ ጁስ</h5>
+          <p class="card-text text-muted fs-7">Short description</p>
+          <p class="text-primary fw-bold mb-0">$19.99</p>
+          <button class="btn btn-success mt-3">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="card" style="min-width: 200px;">
+        <img src="lemon.jpg" class="card-img-top object-fit-cover" style="height: 150px;">
+        <div class="card-body">
+          <h5 class="card-title fs-6">ሎሚ ጁስ</h5>
+          <p class="card-text text-muted fs-7">Short description</p>
+          <p class="text-primary fw-bold mb-0">$19.99</p>
+          <button class="btn btn-success mt-3">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="card" style="min-width: 200px;">
+        <img src="banana.jpg" class="card-img-top object-fit-cover" style="height: 150px;">
+        <div class="card-body">
+          <h5 class="card-title fs-6">ሙዝ ጁስ</h5>
+          <p class="card-text text-muted fs-7">Short description</p>
+          <p class="text-primary fw-bold mb-0">$19.99</p>
+          <button class="btn btn-success mt-3">Add to Cart</button>
+
+        </div>
+      </div>
+      <div class="card" style="min-width: 200px;">
+        <img src="avo.png" class="card-img-top object-fit-cover" style="height: 150px;">
+        <div class="card-body">
+          <h5 class="card-title fs-6">አቮካዶ ጁስ</h5>
+          <p class="card-text text-muted fs-7">Short description</p>
+          <p class="text-primary fw-bold mb-0">$19.99</p>
+          <button class="btn btn-success mt-3">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="card" style="min-width: 200px;">
+        <img src="mango.jpg" class="card-img-top object-fit-cover" style="height: 150px;">
+        <div class="card-body">
+          <h5 class="card-title fs-6">ማንጎ ጁስ</h5>
+          <p class="card-text text-muted fs-7">Short description</p>
+          <p class="text-primary fw-bold mb-0">$19.99</p>
+          <button class="btn btn-success mt-3">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="card" style="min-width: 200px;">
+        <img src="malonjuice.jpg" class="card-img-top object-fit-cover" style="height: 150px;">
+        <div class="card-body">
+          <h5 class="card-title fs-6">ሀብሀብ ጁስ</h5>
+          <p class="card-text text-muted fs-7">Short description</p>
+          <p class="text-primary fw-bold mb-0">$19.99</p>
+          <button class="btn btn-success mt-3">Add to Cart</button>
+
+        </div>
+      </div>
+      <!-- Repeat similar cards -->
+    </div>
+  </div>
+
+  <!-- Popular Products (Grid) -->
+  <div class="container mt-5">
+    <h3 class="mb-3">ፈጣን ምግቦች</h3>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card h-100">
+          <img src="piz.jpg" class="card-img-top object-fit-cover" >
+          <div class="card-body">
+            <h5 class="card-title fs-6">ፒዛ</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="fruitpanch.jpg" class="card-img-top object-fit-cover">
+          <div class="card-body">
+            <h5 class="card-title fs-6">ፍሩት ፓንች</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="burger.jpg" class="card-img-top object-fit-cover">
+          <div class="card-body">
+            <h5 class="card-title fs-6">በርገር</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="sandwitch.jpg" class="card-img-top object-fit-cover" >
+          <div class="card-body">
+            <h5 class="card-title fs-6">ሳንዱች</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+      <!-- Repeat similar cards -->
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <h3 class="mb-3">ፍራፍሬ</h3>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card h-100">
+          <img src="orangee.jpg" class="card-img-top object-fit-cover" >
+          <div class="card-body">
+            <h5 class="card-title fs-6">ብርቱካን</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="watermalonee.jpg" class="card-img-top object-fit-cover">
+          <div class="card-body">
+            <h5 class="card-title fs-6">ሀብሀብ</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="mangoo.jpg" class="card-img-top object-fit-cover">
+          <div class="card-body">
+            <h5 class="card-title fs-6">ማንጎ</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="lemonn.jpg" class="card-img-top object-fit-cover" >
+          <div class="card-body">
+            <h5 class="card-title fs-6">ሎሚ</h5>
+            <p class="card-text text-muted fs-7">Short description</p>
+            <p class="text-primary fw-bold mb-0">$19.99</p>
+            <button class="btn btn-success mt-3">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+      <!-- Repeat similar cards -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white mt-5 py-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Products</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p class="text-secondary">contact@example.com</p>
+        </div>
+      </div>
+      <div class="text-center text-secondary mt-4">&copy; 2023 My Store</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
